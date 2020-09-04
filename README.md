@@ -7,6 +7,9 @@ Web ghi chú sử dụng MERN Stack
 ```shell
 npm install
 ```
+```shell
+cd client && npm install
+```
 ### Khởi động Web
 - Back-end
 ```shell
