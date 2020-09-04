@@ -1,0 +1,44 @@
+.NoteList {
+  width: 100%;
+  height: 100%;
+  padding: 32px 0;
+  background-color: #F6F7FB;
+  overflow: scroll;
+}
+
+.NoteList p {
+  color: #8f9099;
+}
+
+.NoteList .note-info {
+  padding: 0 32px;
+  padding-bottom: 32px;
+}
+
+.NoteList .note-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.NoteList .note-block {
+  border-top: solid 1px #6e6e6e;
+  padding: 16px 32px;
+}
+.NoteList .note-block button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.NoteList .note-block button .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.NoteList .note-block .content {
+  font-size: 0.85rem;
+}
+
+.NoteList .note-block .date {
+  font-size: 0.85rem;
+}

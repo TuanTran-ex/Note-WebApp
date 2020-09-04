@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.NavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid 4px black;
+}
+
+.NavBar .NavBarBrand {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.NavBar .NavBarBrand .toggle-sidebar {
+  width: 48px;
+  height: 48px;
+  background-color: inherit;
+  border: solid 2px black;
+  display: grid;
+  place-items: center;
+}
+
+.NavBar .NavBarBrand .toggle-sidebar img {
+  width: 70%;
+}
+
+.NavBar .NavBarBrand .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NavBar .NavBarBrand .logo img {
+  width: 64px;
+  height: 64px;
+}
+
+.NavBar .NavBarBrand .logo a {
+  font-size: 2rem;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.NavBar .navbar-btn-wrapped {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 48px;
+}
+.NavBar .navbar-btn-wrapped .search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NavBar .navbar-btn-wrapped .navbar-btn {
+  width: 28px;
+  height: 28px;
+  background-color: inherit;
+  border: none;
+  margin-right: 32px;
+  outline: none;
+  cursor: pointer;
+}
+.NavBar .navbar-btn-wrapped .navbar-btn:hover {
+  filter: opacity(50%);
+}
+.NavBar .navbar-btn-wrapped .search-box {
+  width: 380px;
+  height: 38px;
+  padding: 6px 16px;
+  font-size: 1.15rem;
+  margin-right: 12px;
+}
+
+.NavBar .navbar-btn-wrapped .navbar-btn img {
+  width: 100%;
+}
+
+.NavBar .account {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  place-items: center;
+  border: solid 3px black;
+  padding: 8px 3rem;
+}
+
+.NavBar .account a {
+  font-size: 1.5rem;
+}
+
+.NavBar .account .avatar {
+  width: 64px;
+  height: 64px;
+}
+
+.NavBar .account .avatar img {
+  width: 100%;
+}
