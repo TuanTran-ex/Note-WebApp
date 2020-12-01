@@ -1,6 +1,6 @@
 # Note-WebApp
 Web ghi chú sử dụng MERN Stack
-Được xây dựng bằng: MongoDB, ExpresJS, React, NodeJS
+Được xây dựng bằng: MongoDB, ExpressJS, React, NodeJS
 
 ## Hướng dẫn chạy Project  
 ### Cài đặt node modules
